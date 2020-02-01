@@ -18,8 +18,8 @@
 .COMPONENT
     TestNewModuleJohnMatlock
 #>
-function Get-HelloWorld {
-    [CmdletBinding()]
+function Get-HelloWorld
+{
     param (
         # [Parameter(Mandatory = $true,
         #     HelpMessage = 'Helpful Message')]

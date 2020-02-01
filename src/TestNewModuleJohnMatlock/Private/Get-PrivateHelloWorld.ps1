@@ -18,7 +18,8 @@
 .COMPONENT
     TestNewModuleJohnMatlock
 #>
-function Get-PrivateHelloWorld {
+function Get-PrivateHelloWorld
+{
     [CmdletBinding()]
     param (
         # [Parameter(Mandatory = $true,
